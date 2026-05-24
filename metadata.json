@@ -1,0 +1,6 @@
+{
+  "name": "WAB Firewall",
+  "description": "No-root local VPN firewall designed to selectively block WhatsApp Business.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

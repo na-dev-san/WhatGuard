@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer shielding target rings -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,14 A40,40 0 1,1 53.99,14"
+        android:strokeWidth="1.5"
+        android:strokeColor="#381E72"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,20 A34,34 0 1,1 53.99,20"
+        android:strokeWidth="1.0"
+        android:strokeColor="#4A4554" />
+
+    <!-- Centered Shield Lock body -->
+    <group
+        android:translateX="30"
+        android:translateY="28">
+        
+        <!-- Premium Shield vector outline & fill in Lavender (#D0BCFF) -->
+        <path
+            android:fillColor="#D0BCFF"
+            android:pathData="M24,0 L4,4 V22 C4,34.2 12.5,45.5 24,48 C35.5,45.5 44,34.2 44,22 V4 L24,0 Z" />
+            
+        <!-- Elegant Inner dark protection mask -->
+        <path
+            android:fillColor="#381E72"
+            android:pathData="M24,3 L7,6.3 V22 C7,31.7 13.9,40.9 24,44.9 C34.1,40.9 41,31.7 41,22 V6.3 L24,3 Z" />
+
+        <!-- Bold Secure Center Brass Lock in White and Brilliant Mint Success (#B4E197) -->
+        <!-- Lock Shackle -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#B4E197"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:pathData="M17,21 V16 A7,7 0 0,1 31,16 V21" />
+            
+        <!-- Lock Case body -->
+        <path
+            android:fillColor="#B4E197"
+            android:pathData="M13,20 H35 A2,2 0 0,1 37,22 V33 A2,2 0 0,1 35,35 H13 A2,2 0 0,1 11,33 V22 A2,2 0 0,1 13,20 Z" />
+            
+        <!-- Micro Keyhole in Deep purple -->
+        <path
+            android:fillColor="#381E72"
+            android:pathData="M24,24 A2.5,2.5 0 1,0 24,28.5 V31 H25 L24,32 H23 L24,31 V28.5 A2.5,2.5 0 0,0 24,24" />
+            
+    </group>
+</vector>
